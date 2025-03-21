@@ -52,12 +52,12 @@ If you're using Windows, you need to install Windows Subsystem for Linux (WSL).
 
 1. Download the Go binary:
     ```sh
-    wget https://golang.org/dl/go1.18.4.linux-amd64.tar.gz
+    wget https://golang.org/dl/go1.23.1.linux-amd64.tar.gz
     ```
 
 2. Extract the archive and install Go:
     ```sh
-    sudo tar -C /usr/local -xzf go1.18.4.linux-amd64.tar.gz
+    sudo tar -C /usr/local -xzf go1.23.1.linux-amd64.tar.gz
     ```
 
 3. Add Go to your PATH:
@@ -112,7 +112,6 @@ Set up the required environment variables in your terminal session or add them t
 ```sh
 GRPC_URL=grpc.testnet.layeredge.io:9090
 CONTRACT_ADDR=cosmos1ufs3tlq4umljk0qfe8k5ya0x6hpavn897u2cnf9k0en9jr7qarqqt56709
-# Alternatively:
 ZK_PROVER_URL=https://layeredge.mintair.xyz/
 API_REQUEST_TIMEOUT=100
 POINTS_API=https://light-node.layeredge.io
